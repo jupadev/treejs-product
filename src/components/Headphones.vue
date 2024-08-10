@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { useGLTF, Levioso, Html } from '@tresjs/cientos';
+import { Levioso, Html } from '@tresjs/cientos';
+import { useGLTF } from '@tresjs/cientos'
 import { useState } from '../composables/state';
 import { watch } from 'vue';
 
-const { nodes, materials } = await useGLTF('/models/headphones/headphones.gltf')
+const { nodes, materials } = await useGLTF('/models/headphones/headphones.gltf', { draco: true })
 
 const model = nodes['Headphones_7']
 
