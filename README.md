@@ -1,7 +1,11 @@
-# Lesson 13
+# Three js customizable product
 
-This code covers the following lessons:
- - 13: Final touches, enhance the scene with a little movement
+Product 3D color customizable based on Egghead course
+https://egghead.io/courses/create-interactive-3d-experiences-with-tresjs-004057c2
 
+## Live demo
+https://treejs-product.vercel.app/
+
+![screenshot](image.png)
 
 
